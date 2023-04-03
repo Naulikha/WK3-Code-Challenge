@@ -3,7 +3,7 @@ function moviesDo() {
   
     const filmSetup = document.getElementById("filmSetup");
   
-    fetch("https://skanner33.github.io/Skanner33-github.io/db.json")
+    fetch("https://github.com/Naulikha/WK3-Code-Challenge/blob/main/db.json")
       .then((response) => response.json())
       .then((data) => createFilmDetails(data.films, filmSetup));
   
